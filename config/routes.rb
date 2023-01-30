@@ -7,6 +7,6 @@ Rails.application.routes.draw do
 
   root "user#index"
 
-  get '/user/signIn', to 'user#signIn'
-  get '/user/loginIn', to 'user#loginIn'
+  get '/user/signIn', to: 'user#signIn'
+  get '/user/loginIn', to: 'user#loginIn'
 end
